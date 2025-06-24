@@ -1,0 +1,18 @@
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-3000_39_epoch1" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-3000_39_epoch1_standard.json" --save_path results
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-3000_39_epoch2" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-3000_39_epoch2_standard.json" --save_path results
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-3000_39_epoch3" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-3000_39_epoch3_standard.json" --save_path results
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-5000_40_epoch1" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-5000_40_epoch1_standard.json" --save_path results
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-5000_40_epoch2" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-5000_40_epoch2_standard.json" --save_path results
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-5000_40_epoch3" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-5000_40_epoch3_standard.json" --save_path results
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-10000_41_epoch1" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-10000_41_epoch1_standard.json" --save_path results
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-10000_41_epoch2" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-10000_41_epoch2_standard.json" --save_path results
+CUDA_VISIBLE_DEVICES=0 python generate_responses.py --model "/data/dataset_cartography/Dataset-Cartography/train-eval/LLaMA-Factory/models/llama3-8b/simpo/llama3-8b_simpo_harmful-10000_41_epoch3" --prompt red_prompts/standard.txt --dataset harmful_questions/adversarialqa.json
+python gpt4_as_judge.py --response_file "results/adversarialqa_llama3-8b_simpo_harmful-10000_41_epoch3_standard.json" --save_path results
