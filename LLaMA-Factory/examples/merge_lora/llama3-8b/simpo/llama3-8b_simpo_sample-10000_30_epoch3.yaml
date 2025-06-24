@@ -1,0 +1,9 @@
+model_name_or_path: princeton-nlp/Llama-3-Base-8B-SFT
+adapter_name_or_path: ../../../../../data1/dataset_cartography/saves/llama3-8b/simpo/llama3-8b-simpo-sample-10000-30
+template: llama3
+finetuning_type: lora
+trust_remote_code: true
+export_dir: models/llama3-8b/simpo/llama3-8b_simpo_sample-10000_30_epoch3
+export_size: 2
+export_device: cpu
+export_legacy_format: false
